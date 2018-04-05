@@ -1,2 +1,1 @@
 # sammy
-profile site
