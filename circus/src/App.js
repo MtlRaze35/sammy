@@ -1,14 +1,14 @@
 import React, { Component } from "react";
-import { Router, Route, Redirect } from "react-router";
+
+import Home from "./components/Home";
 import NavBar from "./components/NavBar";
-import Main from "./components/Main";
 
 class App extends Component {
   render() {
     return (
       <div>
+        <Home />
         <NavBar />
-        <Main />
       </div>
     );
   }
